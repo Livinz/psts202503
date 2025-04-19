@@ -1,0 +1,26 @@
+/* Styling untuk logo */
+.logo-sidebar {
+    width: 120px;          /* Atur lebar logo */
+    height: 120px;         /* Atur tinggi logo agar bulat */
+    border-radius: 50%;    /* Membuat logo menjadi bentuk bulat */
+    object-fit: cover;     /* Memastikan logo tetap proporsional */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan logo untuk efek lebih menarik */
+}
+
+/* Sidebar dan menu */
+.sidebar {
+    background-color: #ffffff;
+    height: 100vh;
+    border-right: 1px solid #dee2e6;
+    padding-top: 30px;
+}
+
+.sidebar a {
+    color: #4e73df;
+    font-weight: 500;
+}
+
+.sidebar a.active {
+    background-color: #4e73df;
+    color: white !important;
+}
